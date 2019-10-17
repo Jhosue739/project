@@ -1,0 +1,148 @@
+*{
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #D8E0E5;
+}
+main{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 33px 100px 55px 550px 50px 60px 50px 60px 400px 50px ;
+	width: 86%;
+	padding-left: 100px;
+	background: white;
+}
+/*principales*/
+header{
+	background:#Fff;
+	display: flex;
+}
+nav{
+	background:#F7F7F7; 
+	display: flex;
+}
+section{
+	background: #Fff;
+}
+
+#u{
+	background: #fff;
+
+}
+#o{
+	background: #FFF;
+	font-size:30px;
+	padding: 10px;
+}
+#au{
+	background:;
+	display: flex;
+	width: 100%;
+	padding-left:30px;
+}
+#e{
+	background: #fff;
+	width: 50%;
+	padding-left: 420px;
+
+
+}
+footer{
+	background:;
+	font-size: 40px;
+	font-family: "Lucida Handwriting";
+	padding-top: 15px;
+}
+/*imagenes*/
+.i{
+	padding: 25px 0px 0px 40px;
+}
+.i1{
+	padding: 10px 0px 0px 0px;
+
+}
+
+/*menu 1*/
+#am{
+	padding-left: 800px;
+
+}
+#am ul{
+	display: flex;
+
+}
+#am > ul > li{
+	list-style: none;
+	text-decoration: none;
+    padding: 20px 0px 0px 12px;
+    margin: auto;
+    font-size:13px;
+
+}
+#am > ul > li:hover{
+	color: #D78023 ;
+}
+
+/*menu 2*/
+#em{
+padding-left: 200px;
+}
+#em ul{
+	display: flex;
+}
+#em > ul > li{
+	list-style: none;
+	text-decoration: none;
+    margin: auto;
+    padding: 20PX;
+    font-size: 18px;
+}
+#em > ul > li:hover{
+	color: white;
+	background: #C43E3E;
+	}
+	article{
+		width:426px;
+	}
+/*contenido*/
+#e ul{
+	display: flex;
+}
+#e > ul > li {
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+	font-family:"Arial";
+	font-size: 12pX;
+	padding-left: 20px;
+}
+#e > ul > li:hover{
+	color: rgba(220, 150, 42 );
+	}
+	aside{
+		width:25%
+	}
+	/*formulario*/
+	form{
+		padding:30px 0px 0px 25px;
+		width:30%;
+	}
+	form > input {
+		padding: 13px;
+	}
+#ta{
+		background: #C43E3E ;
+		color: white;
+		border-radius: 0px 3px 3px 0px;
+	}
+	#ta:hover{
+		background:black;
+		color: white;
+
+	}
+	#te{
+		background: #EBF4FA;
+		color:rgba(199, 199, 199,1); 
+	}
